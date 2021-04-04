@@ -3,6 +3,8 @@ package com.example.kafkaInJava;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import com.google.gson.GsonBuilder;
+import com.opencsv.CSVReader;
 
 public class csvToJsonConversionInJava {
 

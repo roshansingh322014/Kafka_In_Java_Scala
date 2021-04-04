@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\com\example\kafkaInJava\csvToJsonConversionInJava.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\com\example\kafkaInScala\consumerInScala.scala">
           <value>
             <Attribute>
