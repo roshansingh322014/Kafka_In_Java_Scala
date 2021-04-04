@@ -1,0 +1,1 @@
+C:\kafka\bin\windows\connect-standalone.bat C:\kafka\config\connect-standalone.properties

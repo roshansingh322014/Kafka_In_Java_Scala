@@ -1,0 +1,2 @@
+[2021-04-03 18:56:59,666] INFO successfully passed a message ...: Producer in Java (com.example.kafkaInScala.consumerInScala$)
+[2021-04-03 18:57:35,073] INFO successfully passed a message ...: hurray (com.example.kafkaInScala.consumerInScala$)

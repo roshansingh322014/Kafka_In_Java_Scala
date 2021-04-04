@@ -1,0 +1,1 @@
+C:\kafka\bin\windows\kafka-console-producer.bat --topic my-connect-test --bootstrap-server localhost:9092
