@@ -31,8 +31,12 @@ object consumerInScala extends App {
       val recordIterator = polledrecords.iterator()
       while (recordIterator.hasNext) {
         val record = recordIterator.next();
-        println(s" ${record.key()} | ${record.value()} | ${record.partition()} | ${record.offset()}")
-        logger.info("successfully passed a message ...: " + record.value())
+
+        if(record.key()=="101"){
+          System.out.println("The file path is: " + record.value());
+        }
+//        println(s" ${record.key()} | ${record.value()} | ${record.partition()} | ${record.offset()}")
+//        logger.info("successfully passed a message ...: " + record.value())
       }
     }
   }
